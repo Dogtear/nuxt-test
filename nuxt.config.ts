@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   vite: {
     plugins: [tailwindcss()],
+    build: {
+      cssMinify: 'lightningcss',
+    },
   },
   modules: ['@nuxt/eslint'],
   typescript: {
@@ -13,4 +16,12 @@ export default defineNuxtConfig({
   },
   pages: true,
   css: ['./assets/css/tailwind.css'],
+  postcss: {
+    plugins: {
+      cssnano: {
+        preset: ['cssnano-preset-default', { calc: false }],
+      },
+      autoprefixer: {},
+    },
+  },
 });
