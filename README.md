@@ -19,20 +19,6 @@ This project is a front-end application built with Nuxt.js. It is designed to de
 ### Approach
 
 - Set up the Nuxt.js project structure with reusable components.
-- Reading Nuxt.js documentation for the project
-- Implement layouts and pages following the design specifications.
-- Setup Tailwind v4 for the project
-- Implement Reusable Components for the project
-- Ensure responsiveness across different screen sizes.
-- Conduct testing to validate functionality and correctness.
-
-### Challenges Faced & Solutions
-
-## Development Process
-
-### Approach
-
-- Set up the Nuxt.js project structure with reusable components.
 - Read the Nuxt.js documentation for the project.
 - Implement layouts and pages following the design specifications.
 - Set up Tailwind v4 for the project.
